@@ -1,0 +1,87 @@
+2021-01-04 09:35:03.523 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on DESKTOP-SO92RFP with PID 7756 (D:\workspace-spring-tool-suite-4-4.8.1.RELEASE\demo\target\classes started by DK_ZX in D:\workspace-spring-tool-suite-4-4.8.1.RELEASE\demo)
+2021-01-04 09:35:03.539 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2021-01-04 09:35:04.796 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-04 09:35:04.804 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-01-04 09:35:04.843 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 repository interfaces.
+2021-01-04 09:35:05.330 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5f15fb27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-04 09:35:06.035 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8099 (http)
+2021-01-04 09:35:06.068 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8099"]
+2021-01-04 09:35:06.087 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2021-01-04 09:35:06.088 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-01-04 09:35:06.106 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/sts-4.8.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246/jre/bin/server;D:/sts-4.8.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Java\jdk1.8.0_251\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;D:\apache-maven-3.6.0\bin;C:\Users\DK_ZX\AppData\Local\Microsoft\WindowsApps;;D:\sts-4.8.1.RELEASE;;.]
+2021-01-04 09:35:06.306 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2021-01-04 09:35:06.306 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2711 ms
+2021-01-04 09:35:06.977 - INFO  [           main] edRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-01-04 09:35:07.381 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-04 09:35:07.592 - INFO  [           main] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-04 09:35:07.738 - INFO  [           main] c.a.d.p.DruidDataSource        : {dataSource-1} inited
+2021-01-04 09:35:08.608 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
+2021-01-04 09:35:08.638 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-04 09:35:08.685 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
+2021-01-04 09:35:08.840 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8099"]
+2021-01-04 09:35:08.887 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8099 (http) with context path '/demo'
+2021-01-04 09:35:08.892 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 5.716 seconds (JVM running for 7.372)
+2021-01-04 09:35:26.338 - INFO  [nio-8099-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-04 09:35:26.338 - INFO  [nio-8099-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2021-01-04 09:35:26.346 - INFO  [nio-8099-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 8 ms
+2021-01-04 09:45:58.212 - INFO  [n(19)-127.0.0.1] gistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-01-04 09:45:58.248 - INFO  [n(19)-127.0.0.1] c.a.d.p.DruidDataSource        : {dataSource-1} closed
+2021-01-04 09:45:58.249 - INFO  [n(19)-127.0.0.1] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-04 09:51:16.314 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on DESKTOP-SO92RFP with PID 876 (D:\workspace-spring-tool-suite-4-4.8.1.RELEASE\demo\target\classes started by DK_ZX in D:\workspace-spring-tool-suite-4-4.8.1.RELEASE\demo)
+2021-01-04 09:51:16.322 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2021-01-04 09:51:17.093 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-04 09:51:17.097 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-01-04 09:51:17.118 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2021-01-04 09:51:17.414 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$bfd9e618] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-04 09:51:17.744 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8099 (http)
+2021-01-04 09:51:17.760 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8099"]
+2021-01-04 09:51:17.767 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2021-01-04 09:51:17.768 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-01-04 09:51:17.776 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/sts-4.8.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246/jre/bin/server;D:/sts-4.8.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Java\jdk1.8.0_251\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;D:\apache-maven-3.6.0\bin;C:\Users\DK_ZX\AppData\Local\Microsoft\WindowsApps;;D:\sts-4.8.1.RELEASE;;.]
+2021-01-04 09:51:17.885 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2021-01-04 09:51:17.886 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1518 ms
+2021-01-04 09:51:18.311 - INFO  [           main] edRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-01-04 09:51:18.520 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-04 09:51:18.662 - INFO  [           main] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-04 09:51:18.752 - INFO  [           main] c.a.d.p.DruidDataSource        : {dataSource-1} inited
+2021-01-04 09:51:19.275 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
+2021-01-04 09:51:19.294 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-04 09:51:19.317 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
+2021-01-04 09:51:19.416 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8099"]
+2021-01-04 09:51:19.437 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8099 (http) with context path '/demo'
+2021-01-04 09:51:19.440 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 3.438 seconds (JVM running for 4.741)
+2021-01-04 09:51:24.911 - INFO  [nio-8099-exec-1] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-04 09:51:24.911 - INFO  [nio-8099-exec-1] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2021-01-04 09:51:24.917 - INFO  [nio-8099-exec-1] o.s.w.s.FrameworkServlet       : Completed initialization in 6 ms
+2021-01-04 09:52:28.139 - INFO  [on(8)-127.0.0.1] gistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-01-04 09:52:28.158 - INFO  [on(8)-127.0.0.1] c.a.d.p.DruidDataSource        : {dataSource-1} closed
+2021-01-04 09:52:28.159 - INFO  [on(8)-127.0.0.1] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-04 09:52:36.211 - INFO  [           main] o.s.b.StartupInfoLogger        : Starting DemoApplication on DESKTOP-SO92RFP with PID 2332 (D:\workspace-spring-tool-suite-4-4.8.1.RELEASE\demo\target\classes started by DK_ZX in D:\workspace-spring-tool-suite-4-4.8.1.RELEASE\demo)
+2021-01-04 09:52:36.219 - INFO  [           main] o.s.b.SpringApplication        : No active profile set, falling back to default profiles: default
+2021-01-04 09:52:36.981 - INFO  [           main] epositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-04 09:52:36.984 - INFO  [           main] epositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-01-04 09:52:37.006 - INFO  [           main] epositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2021-01-04 09:52:37.281 - INFO  [           main] egate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$27c77d5e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-01-04 09:52:37.619 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat initialized with port(s): 8099 (http)
+2021-01-04 09:52:37.633 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing ProtocolHandler ["http-nio-8099"]
+2021-01-04 09:52:37.640 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting service [Tomcat]
+2021-01-04 09:52:37.641 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting Servlet engine: [Apache Tomcat/9.0.16]
+2021-01-04 09:52:37.649 - INFO  [           main] o.a.j.l.DirectJDKLog           : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:/sts-4.8.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246/jre/bin/server;D:/sts-4.8.1.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.0.v20201014-1246/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Java\jdk1.8.0_251\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Program Files\MySQL\MySQL Server 8.0\bin;D:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;D:\apache-maven-3.6.0\bin;C:\Users\DK_ZX\AppData\Local\Microsoft\WindowsApps;;D:\sts-4.8.1.RELEASE;;.]
+2021-01-04 09:52:37.762 - INFO  [           main] o.a.j.l.DirectJDKLog           : Initializing Spring embedded WebApplicationContext
+2021-01-04 09:52:37.763 - INFO  [           main] letWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1503 ms
+2021-01-04 09:52:38.159 - INFO  [           main] edRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2021-01-04 09:52:38.371 - INFO  [           main] c.ExecutorConfigurationSupport : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-04 09:52:38.493 - INFO  [           main] a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-04 09:52:38.576 - INFO  [           main] c.a.d.p.DruidDataSource        : {dataSource-1} inited
+2021-01-04 09:52:39.078 - INFO  [           main] cumentationPluginsBootstrapper : Context refreshed
+2021-01-04 09:52:39.099 - INFO  [           main] cumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-01-04 09:52:39.124 - INFO  [           main] w.s.ApiListingReferenceScanner : Scanning for api listing references
+2021-01-04 09:52:39.247 - INFO  [           main] o.a.j.l.DirectJDKLog           : Starting ProtocolHandler ["http-nio-8099"]
+2021-01-04 09:52:39.270 - INFO  [           main] o.s.b.w.e.t.TomcatWebServer    : Tomcat started on port(s): 8099 (http) with context path '/demo'
+2021-01-04 09:52:39.272 - INFO  [           main] o.s.b.StartupInfoLogger        : Started DemoApplication in 3.377 seconds (JVM running for 4.634)
+2021-01-04 09:52:51.748 - INFO  [nio-8099-exec-2] o.a.j.l.DirectJDKLog           : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-04 09:52:51.749 - INFO  [nio-8099-exec-2] o.s.w.s.FrameworkServlet       : Initializing Servlet 'dispatcherServlet'
+2021-01-04 09:52:51.755 - INFO  [nio-8099-exec-2] o.s.w.s.FrameworkServlet       : Completed initialization in 5 ms
+2021-01-04 14:22:54.758 - INFO  [(263)-127.0.0.1] gistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-01-04 14:22:54.782 - INFO  [(263)-127.0.0.1] c.a.d.p.DruidDataSource        : {dataSource-1} closed
+2021-01-04 14:22:54.784 - INFO  [(263)-127.0.0.1] c.ExecutorConfigurationSupport : Shutting down ExecutorService 'applicationTaskExecutor'

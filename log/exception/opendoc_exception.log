@@ -1,0 +1,3 @@
+2021-01-04 09:35:34.473 -ERROR  [nio-8099-exec-3] e.d.h.ResponseResultBodyAdvice : ExceptionHandler: / by zero
+2021-01-04 09:51:28.924 -ERROR  [nio-8099-exec-4] e.d.h.ResponseResultBodyAdvice : ExceptionHandler: / by zero
+2021-01-04 09:52:56.743 -ERROR  [nio-8099-exec-4] e.d.h.ResponseResultBodyAdvice : ExceptionHandler: / by zero
