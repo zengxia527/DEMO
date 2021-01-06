@@ -9,7 +9,7 @@ import org.springframework.util.StringUtils;
 @SpringBootTest
 class DemoApplicationTests {
 
-	@Autowired
+	/*@Autowired
 	private StringRedisTemplate redisTemplate;
 	@Test
 	void contextLoads() {
@@ -18,6 +18,6 @@ class DemoApplicationTests {
 			redisTemplate.opsForValue().set("aaa", "123");
 		}
 		System.out.println(aaa);
-	}
+	}*/
 
 }
