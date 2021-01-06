@@ -39,4 +39,8 @@ public class UserController {
     	throw new ResultException(ResultStatus.SUCCESS);
     }
 
+    @GetMapping("/test")
+    public String testResult() throws Exception{
+    	return "自动化部署成功";
+    }
 }
