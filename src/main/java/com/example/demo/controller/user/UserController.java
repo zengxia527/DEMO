@@ -43,4 +43,9 @@ public class UserController {
     public String testResult() throws Exception{
     	return "自动化部署成功";
     }
+    
+    @GetMapping("/test2")
+    public String test2Result() throws Exception{
+    	return "自动化部署成功222222";
+    }
 }
